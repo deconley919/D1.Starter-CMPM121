@@ -6,3 +6,35 @@
   min-height: 95vh;
   text-align: center;
 }
+
+.upgrade-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.upgrade-row button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.passive-card {
+  width: 220px;
+  text-align: center;
+}
+
+.passive-card button {
+  width: 100%;
+}
+
+.passive-description {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: inherit;
+  opacity: 0.75;
+}
